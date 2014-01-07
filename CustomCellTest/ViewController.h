@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ProductCell.h"
+#import "Product.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController 
 
 @end
