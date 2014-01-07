@@ -30,6 +30,6 @@
 - (void)setProductInfo:(Product *)item{
     self.productName.text = item.name;
     self.productPrice.text = item.price;
-    self.productImage = [UIImage imageNamed:item.imageName];
+    self.productImage.image = [UIImage imageNamed:item.imageName];
 }
 @end
